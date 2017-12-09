@@ -8,8 +8,8 @@
 <body>
 <div>
     <?php
-       $nome = "Maria";
-       $idade = 18;
+       $nome = (string)"Lucas";
+       $idade = 25;
        echo "$nome tem $idade anos!";
     ?>
 </div>
