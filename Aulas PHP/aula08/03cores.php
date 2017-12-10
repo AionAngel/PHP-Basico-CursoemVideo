@@ -21,7 +21,10 @@
     <?php
        echo "<span class='texto'>$txt</span>";
     ?>
+    </br></br>
+    <a href="03exercicio.html">Voltar</a>
 </div>
+
 </body>
 </html>
  

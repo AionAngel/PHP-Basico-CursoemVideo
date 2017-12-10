@@ -12,6 +12,7 @@
        $rq = sqrt($valor);
        echo "A raiz de $valor e igual a " . number_format($rq,2);
     ?>
+    </br>
     <a href="01exercicio.html">Voltar</a>
 </div>
 </body>

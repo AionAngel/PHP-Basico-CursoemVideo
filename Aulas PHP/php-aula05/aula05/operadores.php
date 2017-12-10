@@ -17,7 +17,7 @@
       echo "<br/>A multiplicacao vale ". ($n1*$n2);
       echo "<br/>A divisao vale ". ($n1/$n2);
       echo "<br/>O modulo vale ". ($n1%$n2);
-      echo "<br/>A media vale $m";
+      echo "<br/>A media vale $m"; 
     ?>
 </div>
 </body>

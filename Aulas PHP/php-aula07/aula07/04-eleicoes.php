@@ -9,7 +9,7 @@
 <div>
     <?php
        $ano = $_GET["an"];
-       $idade = 2014 - $ano;
+       $idade = 2017 - $ano;
        echo "Quem nasceu em $ano tem idade de $idade anos.";
        $tipo = ($idade>=18 && $idade<65)?"OBRIGATORIO":"NAO OBRIGATORIO";
        echo " E dessa forma seu voto e $tipo";
