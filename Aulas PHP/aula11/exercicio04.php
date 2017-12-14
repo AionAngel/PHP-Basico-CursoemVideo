@@ -8,6 +8,8 @@
 <body>
 <div>
     <?php
+
+      $i = isset($GET["ini"])?$GET["ini"]:0;
         
     ?>
 </div>
