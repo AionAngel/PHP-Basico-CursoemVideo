@@ -8,7 +8,12 @@
 <body>
 <div>
     <?php
-        
+        $c = 0;
+
+        while($c <= 10) {
+          echo "O valor de c é ". $c . "</br>";
+          $c++;
+        }
     ?>
 </div>
 </body>
