@@ -7,13 +7,7 @@
 </head>
 <body>
 <div>
-  <?php
-  
-      $c = 1;
-      while ($c <= 5) {
-        echo "Valor $c: <input type='number' name='v$c' value='$c' max='100' min='0'/><br/>";
-        $c++;
-        }
+    <?php
         
     ?>
 </div>
