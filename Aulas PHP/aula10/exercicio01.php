@@ -15,7 +15,7 @@
                $r = $n * 2;
                break;
            case 2:
-               $r = $n ^ 3;
+               $r = pow($n, 3);
                break;
            case 3:
                $r = sqrt($n); // $n ^ (1/2);
