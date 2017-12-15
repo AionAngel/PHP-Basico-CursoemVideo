@@ -16,13 +16,13 @@
       if($f > $i) {
 
         while ($i <=  $f) {
-          echo $i."</br>";
+          echo $i."&nbsp";
           $i += $inc;
         }
 
       }else if($i > $f) {
         while ($i >= $f) {
-          echo $i."</br>";
+          echo $i."&nbsp";
           $i -= $inc;
         }
       }else {
@@ -30,6 +30,7 @@
       }
         
     ?>
+    <br/><a href="javascript:history.go(-1)" class="botao">Voltar</a>
 </div>
 </body>
 </html>
