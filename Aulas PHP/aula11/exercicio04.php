@@ -9,7 +9,25 @@
 <div>
     <?php
 
-      $i = isset($GET["ini"])?$GET["ini"]:0;
+      $i = isset($_GET["inicio"])?$_GET["inicio"]:0;
+      $f = isset($_GET["final"])?$_GET["final"]:0;
+      $inc = isset($_GET["inc"])?$_GET["inc"]:0;
+
+      if($f > $i) {
+
+        while ($i <=  $f) {
+          echo $i."</br>";
+          $i += $inc;
+        }
+
+      }else if($i > $f) {
+        while ($i >= $f) {
+          echo $i."</br>";
+          $i -= $inc;
+        }
+      }else {
+        echo "os numeros são iguais";
+      }
         
     ?>
 </div>
