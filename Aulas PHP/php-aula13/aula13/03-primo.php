@@ -13,8 +13,8 @@
 <div>
     <?php
        $n = isset($_GET["num"])?$_GET["num"]:1;
-	   echo "<h1>Analisando o n&uacute;mero $n ...</h1>";
-	   echo "Valores m&uacute;ltiplos: ";
+	   echo "<h1>Analisando o numero $n ...</h1>";
+	   echo "Valores multiplos: ";
 	   $mult = 0;
 	   for ($c = 1; $c <= $n; $c++) {
 			if ($n % $c == 0) {
@@ -22,7 +22,7 @@
 				echo "$c ";
 			}
 		}
-		echo "<p> Total de m&uacute;ltiplos: $mult </p>";
+		echo "<p> Total de multiplos: $mult </p>";
 		echo "<h2> Resultado: $n <span class='foco'>";
 		if ($mult <= 2) {
 			echo " &Eacute; PRIMO! ";

@@ -14,8 +14,8 @@
        $n = isset($_GET["num"])?$_GET["num"]:1;
 	   echo "<h1>Mostrando a Tabuada de $n </h1>";
 	   for ($c = 1; $c <= 10; $c++) {
-		 $r = $n * $c;
-		 echo "$n x $c = $r <br/>";
+        $r = $n * $c;
+        echo "$n x $c = $r <br/>";
 	   }
     ?>
 	<br/>
